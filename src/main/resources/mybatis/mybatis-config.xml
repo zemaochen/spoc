@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <typeAliases>
+       <package name="com.cdu.mao.model"/>
+   </typeAliases>
+    <!--使用spring和mybatis的整合包，不需要mapper配置，但是mapper.xml和mapper.java必须在同一目录-->
+</configuration>
